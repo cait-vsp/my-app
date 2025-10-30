@@ -1,3 +1,12 @@
+# Homework 3 - Movie Website with React
+
+Created by: Caitlin San Pedro
+Course: CPSC 349-06 (Front-End Engineering)
+
+This project explores the uses of React, Javascript, CSS, and HTML features to create this website. Also, it explores the practices of the API by using TMDB (The Movie Database).
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
