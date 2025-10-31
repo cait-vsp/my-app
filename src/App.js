@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Movie from './components/Movie';
+import Header from './components/Header';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+// API Key: c2e371f001d1b9bfd86c10cf2176de2c
+
+export default function App (){
+  return(
+
+    // Order: Title, Header, Search Bar, Dropdown Sort, Movie, Footer
+    <div>
+      
+      <div class = "title">
+        <h1 id = "Title">Movie Explorer</h1>
+      </div>
+      <Header/>
+      <Movie/>
     </div>
   );
 }
-
-export default App;

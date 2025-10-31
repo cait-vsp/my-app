@@ -1,0 +1,12 @@
+/* This file styles the search bar of the movie website. */
+
+/* Add search bar */
+.search{
+    display: flex;
+    align-items: center;
+}
+
+/* Incorporate search input box */
+.search input[type="text"]{
+    border: 1px solid #cbd5e1;
+}

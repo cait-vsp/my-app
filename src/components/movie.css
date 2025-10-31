@@ -1,0 +1,47 @@
+/*
+
+Edited by: Caitlin San Pedro
+
+Course: CPSC 349-06
+ 
+CWID: 886878545
+
+*/
+
+/* This file is meant for styling the website's movie cards */
+
+/* Sources used: RGB Color Picker */
+
+.movie-container {
+    gap: 20px;
+    padding: 20px;
+    display: grid;
+    background-color: #f0f0f0;
+}
+
+.movie-card{
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.movie-card img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.movie-card h3{
+    font-size: 18px;
+    margin: 10px 0;
+    color: black;
+}
+
+
+.movie-card p{
+    margin: 5px 0;
+    color: black;
+    font-size: 14px;
+}
